@@ -1,0 +1,42 @@
+.intro-header {
+	background: url(../img/lukul-cover.jpg) no-repeat center center;
+	background-size: cover;
+	margin-bottom: 2rem;
+}
+
+.intro-header .container {
+	padding: 35vw 1rem;
+	text-align: center;
+}
+
+.intro-header img {
+	width: 110px;
+}
+
+.intro-header h1 {
+	padding: 0;
+	text-align: center;
+	color: white;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.75);
+	font-family: 'Martel', serif;
+	font-weight: 900;
+	font-size: 2rem;
+}
+
+@media (min-width: 480px) {
+	.intro-header .container {
+		padding: 25vh 1rem;
+	}
+	.intro-header h1 {
+		font-size: 5rem;
+	}
+	.intro-header img {
+		width: 220px;
+	}
+
+}
+
+h2 {
+	font-family: 'Martel', serif;
+	font-weight: 900;
+}

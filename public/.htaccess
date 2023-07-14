@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^((apple-|android-|ms-|fav)icon(-[x\d]+|-precomposed)?\.(ico|png)|manifest\.json|browserconfig\.xml)$ /icons/$1 [R=301,L,QSA]
